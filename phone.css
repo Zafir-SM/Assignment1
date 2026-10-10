@@ -1,0 +1,102 @@
+@charset "UTF-8";
+/* Color scheme: #1F2937 #3B82F6 #60A5FA #F3F4F6 #F97316 */
+
+body {
+  background-color: #1F2937;
+  font-family: Verdana, Geneva, Arial, sans-serif;
+  padding: 0px;
+  margin: 0px;
+  color: #1F2937;
+}
+
+#wrapper {
+  width: 100%;
+  background-color: #F3F4F6;
+}
+
+#banner {
+  background: linear-gradient(to bottom, #1F2937 0%, #3B82F6 100%);
+  color: white;
+  padding: 10px;
+}
+
+#banner h1 {
+  color: white;
+  font-size: 1.4rem;
+  margin-left: 10px;
+}
+
+#left-column {
+  float: none;
+  width: 100%;
+  background-color: #E5E7EB;
+}
+
+#right-column {
+  float: none;
+  width: 100%;
+  background-color: #FFFFFF;
+  padding: 5px;
+}
+
+h1, h2, h3, h4, h5, h6, p, li {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.button {
+  font-size: 1.1rem;
+  text-decoration: none;
+  background-color: #60A5FA;
+  color: #1F2937;
+  display: block;
+  width: 90%;
+  margin: 8px auto;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 6px;
+}
+
+.button:hover {
+  background-color: #F97316;
+  color: white;
+}
+
+.box {
+  width: 90%;
+  min-height: 100px;
+  float: none;
+  background-color: #60A5FA;
+  margin: 10px auto;
+  opacity: 1;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], textarea {
+  width: 90%;
+}
+
+figure {
+  width: 90%;
+  margin: 10px auto;
+}
+
+figcaption {
+  background-color: #1F2937;
+  color: white;
+  text-align: center;
+}
+
+.clear {
+  clear: both;
+}
+
+#footer {
+  background-color: #1F2937;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+#footer a {
+  color: #60A5FA;
+}
