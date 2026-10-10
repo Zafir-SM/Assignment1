@@ -36,6 +36,10 @@ body {
   min-height: 600px;
 }
 
+#left-column a{
+  margin:15px
+}
+
 #right-column {
   float: right;
   width: 630px;
