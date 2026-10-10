@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Me - Personal Portfolio</title>
+  <meta name="viewport" content="width=device-width">
+  <link href="full.css" rel="stylesheet" type="text/css" media="only screen and (min-width: 960px)">
+  <link href="tablet.css" rel="stylesheet" type="text/css" media="only screen and (min-width: 481px) and (max-width: 960px)">
+  <link href="phone.css" rel="stylesheet" type="text/css" media="only screen and (max-width: 480px)">
+</head>
+<body>
+  <div id="wrapper">
+    <header id="banner">
+      <h1>Contact Me</h1>
+      <nav>
+        <p>
+          <a class="button" href="index.html">Home</a>
+          <a class="button" href="about.html">About Me</a>
+          <a class="button" href="projects.html">Projects</a>
+          <a class="button" href="contact.html">Contact Me</a>
+        </p>
+      </nav>
+    </header>
+
+    <div id="left-column">
+      <h3>Inquiries</h3>
+      <p>Send questions, comments, or project collaboration requests using the contact form.</p>
+    </div>
+
+    <div id="right-column">
+      <article>
+        <h2>Send a Message</h2>
+        <form action="mailto:student@ontariotechu.net" method="post" enctype="text/plain" name="contactForm">
+          <p>
+            <label for="name">Your Name:</label><br>
+            <input type="text" id="name" name="name" size="32" placeholder="Your name or nickname here" required>
+          </p>
+          <p>
+            <label for="email">Your Email:</label><br>
+            <input type="email" id="email" name="email" size="40" placeholder="name@domain.com" required>
+          </p>
+          <p>
+            <label for="phone">Cell No.:</label><br>
+            <input type="tel" id="phone" name="phone" size="20" placeholder="123-456-7890">
+          </p>
+          <p>
+            <label for="comments">Comments / Message:</label><br>
+            <textarea id="comments" name="comments" cols="50" rows="6" placeholder="Your message here..." required></textarea>
+          </p>
+          <p>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset Form">
+          </p>
+        </form>
+      </article>
+    </div>
+
+    <div class="clear"></div>
+
+    <footer id="footer">
+      <p>2026 Student Portfolio. All rights reserved.</p>
+      <address>
+        <p>Contact: <a href="mailto:muhammad.sheikh4@ontariotechu.net">muhammad.sheikh4@ontariotechu.net</a></p>
+      </address>
+    </footer>
+  </div>
+</body>
+</html>
